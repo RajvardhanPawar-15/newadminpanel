@@ -54,16 +54,16 @@ const Sidebar = () => {
         <div className="sidebar-logo">
           <Link to={route.newdashboard} className="logo logo-normal">
             <ImageWithBasePath
-              src="assets/img/ganeshbhellogo.png"
+              src="assets/img/IMRlogo.png"
               alt="Img"
               className="h-12 object-contain"
             />
           </Link>
           <Link to={route.newdashboard} className="logo logo-white">
-            <ImageWithBasePath src="assets/img/opicLogo.png" alt="Img" />
+            <ImageWithBasePath src="assets/img/IMRlogo.png" alt="Img" />
           </Link>
           <Link to={route.newdashboard} className="logo-small">
-            <ImageWithBasePath src="assets/img/smallLogo.png" alt="Img" />
+            <ImageWithBasePath src="assets/img/IMRlogo.png" alt="Img" />
           </Link>
           <Link id="toggle_btn" to="#" onClick={handlesidebar}>
             <ChevronsLeft className="feather-16" />

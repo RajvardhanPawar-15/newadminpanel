@@ -20,7 +20,7 @@ const Signin = () => {
               <form>
                 <div className="login-userset">
                   <div className="login-logo logo-normal">
-                    <ImageWithBasePath src="assets/img/ganeshbhellogo.png" alt="img"  className="h-auto object-contain" />
+                    <ImageWithBasePath src="assets/img/IMRlogo.png" alt="img"  className="h-auto object-contain" />
                   </div>
                   <Link to={route.dashboard} className="login-logo logo-white">
                     <ImageWithBasePath src="assets/img/logo-white.png" alt="Img" />
@@ -74,7 +74,7 @@ const Signin = () => {
                         </div>
                         <div className="text-end">
                           <Link
-                            className="text-orange fs-16 fw-medium"
+                            className="text-[#21385a] fs-16 fw-medium"
                             to={route.forgotPassword}
                           >
                             Forgot Password?

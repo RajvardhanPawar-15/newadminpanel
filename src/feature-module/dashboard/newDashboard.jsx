@@ -40,7 +40,7 @@ const NewDashboard = () => {
         show: false,
       },
     },
-    colors: ["#fc931c", "#dbdbdb"],
+    colors: ["#1282B4", "#dbdbdb"],
     responsive: [
       {
         breakpoint: 480,
@@ -177,7 +177,9 @@ const NewDashboard = () => {
       <div className="content">
         <div className="d-flex align-items-center justify-content-between flex-wrap gap-3 mb-2">
           <div className="mb-3">
-            <h1 className="mb-1 font-bold text-xl">Welcome, Ganesh Bhel</h1>
+            <h1 className="mb-1 font-bold text-xl">
+              Welcome, IMR Tech Solutions
+            </h1>
           </div>
         </div>
         {/* FIRST COLUMN  */}
@@ -224,7 +226,7 @@ const NewDashboard = () => {
                     </div>
                     <div className="border p-2 br-8">
                       <p className="d-inline-flex align-items-center mb-1">
-                        <i className="ti ti-circle-filled fs-8 text-[#fc931c] me-1" />
+                        <i className="ti ti-circle-filled fs-8 text-[#1282B4] me-1" />
                         Total Sales
                       </p>
                       <h4>50k</h4>
@@ -257,7 +259,7 @@ const NewDashboard = () => {
                 <div className="grid grid-cols-2 gap-3">
                   <div>
                     <div className="info-item border bg-light p-3 text-center">
-                      <div className="mb-3 text-[#fc931c]  fs-24">
+                      <div className="mb-3 text-[#1282B4] fs-24">
                         <i className="ti ti-building-store" />
                       </div>
                       <p className="mb-1">Franchises</p>
@@ -266,7 +268,7 @@ const NewDashboard = () => {
                   </div>
                   <div>
                     <div className="info-item border bg-light p-3 text-center">
-                      <div className="mb-3 text-[#fc931c]  fs-24">
+                      <div className="mb-3 text-[#1282B4]  fs-24">
                         <i className="ti ti-truck-delivery" />
                       </div>
                       <p className="mb-1">Orders</p>
@@ -275,7 +277,7 @@ const NewDashboard = () => {
                   </div>
                   <div>
                     <div className="info-item border bg-light p-3 text-center">
-                      <div className="mb-3 text-[#fc931c]   fs-24">
+                      <div className="mb-3 text-[#1282B4]  fs-24">
                         <i className="ti ti-stack-3" />
                       </div>
                       <p className="mb-1">Products</p>
@@ -284,7 +286,7 @@ const NewDashboard = () => {
                   </div>
                   <div>
                     <div className="info-item border bg-light p-3 text-center">
-                      <div className="mb-3 text-[#fc931c]   fs-24">
+                      <div className="mb-3 text-[#1282B4]  fs-24">
                         <i className="ti ti-category" />
                       </div>
                       <p className="mb-1">Categories</p>
@@ -301,17 +303,17 @@ const NewDashboard = () => {
         {/* SECOND COLUMN  */}
         <div className="row color-card-row">
           <div className="col-xl-3 col-sm-6 col-12 d-flex">
-            <div className="card bg-primary sale-widget flex-fill">
+            <div className="card bg-secondary sale-widget flex-fill">
               <div className="card-body d-flex align-items-center">
                 <span className="sale-icon bg-white text-primary">
-                  <i className="ti ti-file-text fs-24" />
+                  <i className="ti ti-file-text fs-24 text-[#21385a]" />
                 </span>
                 <div className="ms-2">
                   <p className="text-white mb-1">Total Sales</p>
                   <div className="d-inline-flex align-items-center flex-wrap gap-2">
                     <h4 className="text-white">0</h4>
-                    <span className="badge badge-soft-primary">
-                      <i className="ti ti-arrow-up me-1" />
+                    <span className="badge badge-soft-primary !text-[#1282B4]">
+                      <i className="ti ti-arrow-up me-1 text-[#1282B4]" />
                       0%
                     </span>
                   </div>
@@ -339,7 +341,7 @@ const NewDashboard = () => {
             </div>
           </div>
           <div className="col-xl-3 col-sm-6 col-12 d-flex">
-            <div className="card bg-teal sale-widget flex-fill">
+            <div className="card bg-secondary sale-widget flex-fill">
               <div className="card-body d-flex align-items-center">
                 <span className="sale-icon bg-white text-teal">
                   <i className="ti ti-gift fs-24" />
@@ -357,7 +359,7 @@ const NewDashboard = () => {
             </div>
           </div>
           <div className="col-xl-3 col-sm-6 col-12 d-flex">
-            <div className="card bg-info sale-widget flex-fill">
+            <div className="card bg-secondary sale-widget flex-fill">
               <div className="card-body d-flex align-items-center">
                 <span className="sale-icon bg-white text-info">
                   <i className="ti ti-brand-pocket fs-24" />

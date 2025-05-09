@@ -6,11 +6,12 @@ const CommonFooter = () => {
     <div>
       <div className="footer d-sm-flex align-items-center justify-content-between border-top bg-white p-3">
         <p className="mb-0">
-          2025 © <span className="text-primary">Ganesh Bhel</span> . All Right Reserved
+          2025 © <span className="text-[#1282B4]">IMR Tech Solutions</span> . All
+          Right Reserved
         </p>
         <p>
           Designed &amp; Developed by{" "}
-          <Link to="#" className="text-primary">
+          <Link to="#" className="text-[#1282B4]">
             IMR Tech Solutions
           </Link>
         </p>

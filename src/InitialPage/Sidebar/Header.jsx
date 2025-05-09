@@ -149,20 +149,20 @@ const Header = () => {
           >
             <Link to="/dashboard" className="logo logo-normal">
               <ImageWithBasePath
-                src="assets/img/ganeshbhellogo.png"
+                src="assets/img/IMRlogo.png"
                 alt="img"
                 className="mx-3 h-12 object-contain"
               />
             </Link>
             <Link to="/dashboard" className="logo logo-white">
               <ImageWithBasePath
-                src="assets/img/ganeshbhellogo.png"
+                src="assets/img/IMRlogo.png"
                 alt="img"
               />
             </Link>
             <Link to="/dashboard" className="logo-small">
               <ImageWithBasePath
-                src="assets/img/ganeshbhellogo.png"
+                src="assets/img/IMRlogo.png"
                 alt="img"
               />
             </Link>
@@ -387,7 +387,7 @@ const Header = () => {
                 <span className="user-info p-0">
                   <span className="user-letter">
                     <ImageWithBasePath
-                      src="assets/img/smallLogo.png"
+                      src="assets/img/IMRlogo.png"
                       alt="Img"
                       className="img-fluid"
                     />
@@ -398,12 +398,13 @@ const Header = () => {
                 <div className="profileset d-flex align-items-center">
                   <span className="user-img me-2">
                     <ImageWithBasePath
-                      src="assets/img/smallLogo.png"
+                      src="assets/img/IMRlogo.png"
                       alt="Img"
+                      className="object-contain"
                     />
                   </span>
                   <div>
-                    <h6 className="fw-medium">Ganesh Bhel</h6>
+                    <h6 className="fw-medium">IMR Tech Solutions</h6>
                     <p>Admin</p>
                   </div>
                 </div>

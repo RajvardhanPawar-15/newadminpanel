@@ -1,7 +1,6 @@
 @import "primereact/resources/primereact.css";
 @import "primereact/resources/themes/lara-light-indigo/theme.css";
 
-
 $__basecolor: #2c3038;
 
 .css-1u9des2-indicatorSeparator {
@@ -794,14 +793,14 @@ table tbody td .action-table-data a .action-edit {
 }
 
 .custom-active-hassubroute-false a {
-  background: rgba(252, 147, 28, 0.08);
+  background: rgba(18, 130, 180, 0.08);
   border-radius: 5px;
-  color: #fc931c;
+  color: #1282b4;
 }
 
 .custom-active-hassubroute-false a span.custom-active-span,
 .custom-active-hassubroute-false a svg {
-  color: #fc931c !important;
+  color: #1282b4 !important;
 }
 
 .input-blocks.search-form i {
@@ -1681,7 +1680,7 @@ div.rti--container {
   &.custom-active-hassubroute-false {
     a {
       i {
-        color: #fc931c  !important;
+        color: #1282b4 !important;
       }
     }
   }
