@@ -28,7 +28,7 @@ const Signin = () => {
                   <div className="login-userheading">
                     <h3>Sign In</h3>
                     <h4 className="fs-16">
-                      Access the Ganeshbhel user panel using your email and passcode.
+                      Access the IMR&apos;s Admin Panel using your email and password.
                     </h4>
                   </div>
                   <div className="mb-3">
@@ -84,12 +84,12 @@ const Signin = () => {
                     </div>
                   </div>
                   <div className="form-login">
-                    <Link to={route.newdashboard} className="btn btn-primary w-100">
+                    <Link to={route.newdashboard} className="btn bg-[#1282b4] text-white w-100">
                       Sign In
                     </Link>
                   </div>
                   <div className="my-4 d-flex justify-content-center align-items-center copyright-text">
-                    <p>Copyright © 2025 Ganeshbhel</p>
+                    <p>Copyright © 2025 IMR Tech Solutions</p>
                   </div>
                 </div>
               </form>
